@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unnamed.png" translatesAutoresizingMaskIntoConstraints="NO" id="yHa-E3-vKW">
+                                <rect key="frame" x="16" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Asset 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lvn-GR-3o5">
+                                <rect key="frame" x="-31" y="182" width="437" height="241"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="437" id="Mfw-Bs-IWP"/>
+                                    <constraint firstAttribute="height" constant="241" id="yDj-5h-ayF"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="yHa-E3-vKW" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ELQ-SE-ZAm"/>
+                            <constraint firstItem="Lvn-GR-3o5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Omk-T5-FOY"/>
+                            <constraint firstItem="yHa-E3-vKW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Rik-GJ-ZPw"/>
+                            <constraint firstItem="Lvn-GR-3o5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ubi-9r-nFy"/>
+                            <constraint firstAttribute="trailing" secondItem="yHa-E3-vKW" secondAttribute="trailing" constant="-16" id="r3O-2D-z5K"/>
+                            <constraint firstItem="Lvn-GR-3o5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="126" id="rTh-yg-ft4"/>
+                            <constraint firstItem="yHa-E3-vKW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wP2-ds-LbG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308" y="99"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Asset 2.png" width="437" height="328"/>
+        <image name="unnamed.png" width="810" height="450"/>
+    </resources>
+</document>
